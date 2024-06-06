@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+.container
+{
+    width: 100%;
+    max-width: 1200px;
+    height: 70vh;
+    background: #f1edf5;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    border: 5px solid black;
+}
+.main
+{
+    width: 100%;
+    max-width: 800px;
+    height: 60vh;
+    background: #fff;
+    padding: 20px;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    border: 2px solid #E5E7E9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-details
+{
+    margin-bottom: 250px;
+
+}
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    margin-top: 70px;
+}
+h1
+{
+     text-align: center;
+     color: #00FFFF;
+}
+h3
+{
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 500px;
+    height: 20px;
+  padding: 10px;
+  margin: 10px 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+button {
+   width: 150px;
+  height: 40px;
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #29B6F6;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  display: inline-block;
+  transition: background-color 0.3s, box-shadow 0.3s;
+
+  font-family: Arial, sans-serif;  /* Font family for the text */
+font-size: 16px;                 /* Font size */
+font-weight: bold;               /* Font weight */
+color: #fff;                     /* Text color (black) */
+text-align: center;              /* Text alignment */
+text-decoration: none;           /* Text decoration */
+text-transform: uppercase;
+}
+
+p{
+    color: #808B96;
+    text-align: center;
+ }
+
+
