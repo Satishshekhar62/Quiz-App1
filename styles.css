@@ -11,7 +11,7 @@ body {
 {
     width: 100%;
     max-width: 1200px;
-    height: 70vh;
+    height: 90vh;
     background: #f1edf5;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -22,7 +22,7 @@ body {
 {
     width: 100%;
     max-width: 800px;
-    height: 60vh;
+    height: 80vh;
     background: #fff;
     padding: 20px;
     margin: auto;
@@ -30,7 +30,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     border: 2px solid #E5E7E9;
-    display: flex;
+    /*display: flex;*/
     justify-content: center;
     align-items: center;
 }
@@ -67,7 +67,7 @@ input[type="text"] {
   border-radius: 5px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
-button {
+.button1 {
    width: 150px;
   height: 40px;
   padding: 10px 20px;
@@ -79,12 +79,12 @@ button {
   display: inline-block;
   transition: background-color 0.3s, box-shadow 0.3s;
 
-  font-family: Arial, sans-serif;  /* Font family for the text */
-font-size: 16px;                 /* Font size */
-font-weight: bold;               /* Font weight */
-color: #fff;                     /* Text color (black) */
-text-align: center;              /* Text alignment */
-text-decoration: none;           /* Text decoration */
+  font-family: Arial, sans-serif;   Font family for the text 
+font-size: 16px;                 
+font-weight: bold;               
+color: #fff;                     
+text-align: center;              
+text-decoration: none;           
 text-transform: uppercase;
 }
 
@@ -93,4 +93,43 @@ p{
     text-align: center;
  }
 
+button {
+    display: inline-block;
+    width: calc(50% - 10px);
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
 
+.categories
+{
+    margin-top: -200px;
+}
+button:hover {
+    background-color: #0056b3;
+}
+
+.button-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.quiz-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#question-number, #question, #options {
+    margin-bottom: 10px;
+}
+
+#options button {
+    display: inline-block;
+    width: auto;
+}
